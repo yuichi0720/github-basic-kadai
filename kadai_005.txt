@@ -1,0 +1,31 @@
+yuichi@sanoyuuchinoMBP ~ % pwd
+/Users/yuichi
+yuichi@sanoyuuchinoMBP ~ % mkdir git_challenge
+yuichi@sanoyuuchinoMBP ~ % cd git_challenge
+yuichi@sanoyuuchinoMBP git_challenge % git init
+Initialized empty Git repository in /Users/yuichi/git_challenge/.git/
+yuichi@sanoyuuchinoMBP git_challenge % git add hello_world.txt
+yuichi@sanoyuuchinoMBP git_challenge % git commit -m "日本語訳を追記"                
+
+[main (root-commit) 44a7e56] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+yuichi@sanoyuuchinoMBP git_challenge % git add hello_world.txt                               
+yuichi@sanoyuuchinoMBP git_challenge % git commit -m "hello_world.txt を追加"        
+[main 30b3f6a] hello_world.txt を追加
+ 1 file changed, 1 insertion(+)
+yuichi@sanoyuuchinoMBP git_challenge % git log
+commit 30b3f6a68396a4634f47a9b7d18e62c31b7a633d (HEAD -> main)
+Author: yuichi0720 <sano1620@gmail.com>
+Date:   Tue Jul 23 16:42:09 2024 +0900
+
+    hello_world.txt を追加
+
+commit 44a7e565f6141b664a10d2b600a9c07a67504ae3
+Author: yuichi0720 <sano1620@gmail.com>
+Date:   Tue Jul 23 16:38:56 2024 +0900
+
+    日本語訳を追記
+yuichi@sanoyuuchinoMBP git_challenge % mkdir kadai_005
+yuichi@sanoyuuchinoMBP git_challenge % cd kadai_005
+yuichi@sanoyuuchinoMBP kadai_005 % 
